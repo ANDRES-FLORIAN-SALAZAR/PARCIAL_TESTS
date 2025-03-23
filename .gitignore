@@ -1,0 +1,917 @@
+# Ignorar archivos de entorno virtual
+venv/
+env/
+.venv/
+ENV/
+
+# Ignorar archivos de configuración de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar archivos de configuración de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar archivos de configuración de PyCharm
+.idea/
+*.iml
+
+# Ignorar archivos de configuración de VS Code
+.vscode/
+
+# Ignorar archivos de configuración de macOS
+.DS_Store
+
+# Ignorar archivos de configuración de Windows
+Thumbs.db
+Desktop.ini
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ignorar archivos de configuración de setuptools
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Ignorar archivos de configuración de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar archivos de configuración de PyInstaller
+*.spec
+
+# Ignorar archivos de configuración de IPython
+profile_default/
+ipython_config.py
+
+# Ignorar archivos de configuración de Jupyter
+jupyter_notebook_config.py
+
+# Ignorar archivos de configuración de Sphinx
+docs/_build/
+
+# Ignorar archivos de configuración de PyTest
+.pytest_cache/
+
+# Ignorar archivos de configuración de Coverage
+.coverage
+.coverage.*
+.coveragerc
+
+# Ignorar archivos de configuración de Bandit
+.bandit
+
+# Ignorar archivos de configuración de Mypy
+.mypy_cache/
+
+# Ignorar archivos de configuración de Black
+.black.cache
+
+# Ignorar archivos de configuración de Flake8
+.flake8
+
+# Ignorar archivos de configuración de Isort
+.isort.cfg
+
+# Ignorar archivos de configuración de Pre-commit
+.pre-commit-config.yaml
+
+# Ignorar archivos de configuración de Docker
+docker-compose.yml
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# Ignorar archivos de configuración de Kubernetes
+k8s/
+
+# Ignorar archivos de configuración de Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignorar archivos de configuración de Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorar archivos de configuración de Bower
+bower_components/
+
+# Ignorar archivos de configuración de Composer
+vendor/
+
+# Ignorar archivos de configuración de Ruby
+*.gem
+.bundle/
+
+# Ignorar archivos de configuración de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignorar archivos de configuración de C/C++
+*.o
+*.a
+*.so
+*.out
+
+# Ignorar archivos de configuración de Go
+bin/
+pkg/
+
+# Ignorar archivos de configuración de Rust
+/target/
+**/*.rs.bk
+
+# Ignorar archivos de configuración de Scala
+*.class
+*.log
+
+# Ignorar archivos de configuración de PHP
+*.php
+composer.lock
+
+# Ignorar archivos de configuración de Python
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignorar archivos de configuración de Python
+*.log
+*.pot
+*.pyc   
+# Ignorar archivos de configuración de Python
