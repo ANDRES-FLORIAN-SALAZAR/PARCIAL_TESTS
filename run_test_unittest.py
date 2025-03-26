@@ -1,4 +1,3 @@
-import unittest
 from tests.newmath import test_unittest
 
 # Ejecutar los tests de vocales
@@ -48,6 +47,3 @@ test_unittest.test_deberia_calcular_factor_fibonacci_con_valores_personalizados_
 test_unittest.test_deberia_calcular_factor_fibonacci_con_valores_personalizados_siete()
 test_unittest.test_deberia_calcular_factor_fibonacci_con_valores_personalizados_ocho()
 test_unittest.test_deberia_calcular_factor_fibonacci_con_valores_personalizados_nueve()
-
-if __name__ == '__main__':
-    unittest.main()
