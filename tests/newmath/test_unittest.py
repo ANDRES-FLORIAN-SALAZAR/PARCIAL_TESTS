@@ -1,5 +1,5 @@
 import unittest
-from newmath.string import contar_vocales, multiplicacion_vocales
+from newmath.string import contar_vocales, multiplicacion_vocales, porcentaje_vocales
 from newmath.factor import multiplicador_factor, factor_fibonacci
 
 # Pruebas para String contar_vocales
@@ -204,3 +204,70 @@ class TestFactorFibonacci(unittest.TestCase):
         resultado = factor_fibonacci(14, 2, 3)
         esperado = 114.07
         self.assertEqual(esperado, resultado, "test_deberia_calcular_factor_fibonacci_con_valores_personalizados_nueve")
+    
+# Pruebas para porcentaje_vocales
+class TestPorcentajeVocales(unittest.TestCase):
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase(self):
+            resultado = porcentaje_vocales("Hola, cómo estás?")
+            esperado = 46.15
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_palabra(self):
+            resultado = porcentaje_vocales("Python")
+            esperado = 33.33
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_vacia(self):
+            resultado = porcentaje_vocales("")
+            esperado = 0.0
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_numeros(self):
+            resultado = porcentaje_vocales("12345!")
+            esperado = 0.0
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_simbolos(self):
+            resultado = porcentaje_vocales("!@#$%")
+            esperado = 0.0
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_mayusculas(self):
+            resultado = porcentaje_vocales("AEIOU")
+            esperado = 100.0
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_minusculas(self):
+            resultado = porcentaje_vocales("aeiou")
+            esperado = 100.0
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_espacios(self):
+            resultado = porcentaje_vocales("a e i o u")
+            esperado = 100.0
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_vocales_y_consonantes(self):
+            resultado = porcentaje_vocales("murcielago")
+            esperado = 50.0
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_vocales_acentuadas(self):
+            resultado = porcentaje_vocales("áéíóú")
+            esperado = 100.0
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_vocales_y_consonantes_acentuadas(self):
+            resultado = porcentaje_vocales("murciélago")
+            esperado = 55.56
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_mayusculas_y_minusculas(self):
+            resultado = porcentaje_vocales("Murcielago AEIOU")
+            esperado = 60.0
+            self.assertEqual(esperado, resultado)
+
+        def test_deberia_calcular_porcentaje_vocales_en_una_frase_con_caracteres_no_alfabeticos(self):
+            resultado = porcentaje_vocales("123abc!@#")
+            esperado = 33.33
+            self.assertEqual(esperado, resultado)
